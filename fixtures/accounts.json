@@ -1,0 +1,17 @@
+{
+  "note": "Local fixture identities for the demo server. These are not production credentials and grant no access outside 127.0.0.1.",
+  "users": [
+    {
+      "username": "ada",
+      "password": "local-demo",
+      "role": "admin",
+      "name": "Ada Lovelace"
+    },
+    {
+      "username": "grace",
+      "password": "local-demo",
+      "role": "reader",
+      "name": "Grace Hopper"
+    }
+  ]
+}

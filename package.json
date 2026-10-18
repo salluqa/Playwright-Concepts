@@ -1,0 +1,28 @@
+{
+  "name": "playwright-tutorial-series",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Beginner-friendly Playwright and TypeScript lessons for QA engineers.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "demo": "node fixtures/server.mjs",
+    "test": "playwright test",
+    "test:one": "playwright test",
+    "test:foundation": "playwright test --grep @foundation",
+    "test:intermediate": "playwright test --grep @intermediate",
+    "test:advanced": "playwright test --grep @advanced",
+    "report": "playwright show-report Reports/html",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "install:browsers": "playwright install chromium",
+    "audit": "node tools/audit.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.64.1",
+    "@types/node": "24.19.2",
+    "typescript": "5.9.3"
+  }
+}
