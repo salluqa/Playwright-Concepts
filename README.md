@@ -51,3 +51,4 @@ npm run typecheck
 
 1. [Assertions in Playwright](Articles/01-assertions-in-playwright.md) — [script](Automation%20Scripts/01-assertions-in-playwright.spec.ts)
 2. [Locators and Strict Mode](Articles/02-locators-and-strict-mode.md) — [script](Automation%20Scripts/02-locators-and-strict-mode.spec.ts)
+3. [Auto-Waiting in Playwright](Articles/03-auto-waiting-in-playwright.md) — [script](Automation%20Scripts/03-auto-waiting-in-playwright.spec.ts)
